@@ -15,6 +15,12 @@ class SimpleImageViewer:
         self.current_image = None
         self.display_photo = None
 
+        # Initialize UI component attributes
+        self.load_btn = None
+        self.quit_btn = None
+        self.display_canvas = None
+        self.status_label = None
+
         # Create the user interface
         self.create_widgets()
 
